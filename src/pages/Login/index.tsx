@@ -1,27 +1,43 @@
 // pages/Login/index.tsx
 // container item
 import React from 'react';
-import { Button } from '@components';
-import { MainGrid, StyledGridHeader } from './styles';
+import { Button, InputTextField } from '@components';
+import { LoginMainGrid, StyledGridHeader } from './styles';
+
 
 export const Login: React.FC = () => {
     return (
-        <MainGrid container >
-            <StyledGridHeader >
+        <LoginMainGrid container >
+            <StyledGridHeader container item>
+            
             <Button
-                backgroundColor="#fff"
-                textColor="#fff"
+                backgroundColor="#117fec"
+                textColor="#ffffff"
                 hoverBackgroundColor="#115293"
                 hoverColor="#fff"
-                width="100%"
-                height="48px"
+                width="10rem"
+                height="3rem"
                 fontFamily="Arial"
                 fontSize="16px"
                 isCustomize={true}
                 >
                 Login
             </Button>
-            </StyledGridHeader>
-        </MainGrid>
+            
+            
+            <InputTextField
+                label="Your Name"
+                variant="filled"
+                backgroundColor=""
+                textColor="#333"
+                width="300px"
+                fontFamily="Arial"
+                fontSize="16px"
+                isCustomize={true}
+            />
+            
+
+        </StyledGridHeader>
+        </LoginMainGrid>
     );
 };

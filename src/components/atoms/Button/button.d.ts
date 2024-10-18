@@ -1,6 +1,6 @@
 import { ButtonProps as MuiButtonProps } from '@mui/material/Button';
 
-export interface ButtonProps extends MuiButtonProps {
+export interface IButtonProps extends MuiButtonProps {
     backgroundColor?: string;
     textColor?: string;
     hoverBackgroundColor?: string;

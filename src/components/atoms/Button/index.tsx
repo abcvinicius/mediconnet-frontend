@@ -1,8 +1,8 @@
 // Button/index.tsx
-import { ButtonProps } from './button';
+import { IButtonProps } from './button';
 import { StyledButton } from './styles';
 
-export const Button: React.FC<ButtonProps> = ({
+export const Button: React.FC<IButtonProps> = ({
     backgroundColor,
     textColor,
     hoverBackgroundColor,

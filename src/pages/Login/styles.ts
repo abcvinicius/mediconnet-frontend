@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { Grid } from '@mui/material';
 
-export const MainGrid = styled(Grid) `
+export const LoginMainGrid = styled(Grid) `
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -11,6 +11,7 @@ export const MainGrid = styled(Grid) `
 export const StyledGridHeader = styled(Grid) `
   align-items: center;
   justify-content: center;
+
 `;
 
 

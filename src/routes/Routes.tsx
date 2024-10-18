@@ -2,14 +2,14 @@
 import React from 'react';
 import { BrowserRouter, Route, Routes as AppRoutes} from 'react-router-dom';
 
-import { Login as LoginPage } from '../pages/Login';
+import { Login } from '../pages/Login';
 
 const Routes: React.FC = () => {
     return (
         <BrowserRouter>
             <AppRoutes>
                
-                    <Route path="/login"  element={<LoginPage />} />
+                    <Route path="/login"  element={<Login />} />
     
             </AppRoutes>
         </BrowserRouter>
