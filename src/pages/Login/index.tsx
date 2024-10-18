@@ -30,7 +30,7 @@ export const Login: React.FC = () => {
                 variant="filled"
                 backgroundColor=""
                 textColor="#333"
-                width="300px"
+                width="400px"
                 fontFamily="Arial"
                 fontSize="16px"
                 isCustomize={true}
